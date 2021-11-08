@@ -12,7 +12,7 @@
     display: block;
     width: 488px;
     height: 502px;
-    background: url("/cameraman.png") center center / cover no-repeat;
+    background: url(".images/cameraman.png") center center / cover no-repeat;
 }
 
 .about__desc {

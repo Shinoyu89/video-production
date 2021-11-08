@@ -1,0 +1,104 @@
+
+.footer__container {
+    border-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+    
+.footer {
+    height: 152px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.footer__services {
+    margin-top: 54px;
+    max-height: 70px;
+}
+
+.contacts__desc {
+    font-size: 11px;
+}
+
+.nav__list {
+    padding: 0px;
+    width: auto;
+}
+
+.nav__item {
+    margin: 0px 10px;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.socials__item {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-right: 10px;
+    opacity: 80%;
+}
+
+.socials__item:last-child {
+    margin-right:0px;
+}
+
+.socials__item--telegram {
+    background-image: url("/images/telegram.png");
+}
+
+.socials__item--telegram:hover {
+    background-image: url("/images/telegram-hover.png");
+
+}
+
+.socials__item--vk {
+    background-image: url("/images/vk.png");
+}
+
+.socials__item--vk:hover {
+    background-image: url("/images/vk-hover.png");
+}
+
+.socials__item--f {
+    background-image: url("/images/f.png");
+}
+
+.socials__item--f:hover {
+    background-image: url("/images/f-hover.png");
+}
+
+.socials__item--in {
+    background-image: url("/images/in.png");
+}
+
+.socials__item--in:hover {
+    background-image: url("/images/in-hover.png");
+}
+
+address {
+    margin: 0px;
+    display: inline-block;
+}
+
+.footer__contacts {
+    color: whitesmoke;
+    font-style: normal;
+    
+}
+
+.footer__contacts-link{
+    font-size: 26px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-style: normal;
+}

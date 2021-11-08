@@ -1,0 +1,29 @@
+.hero {
+    display: block;
+    height: 500px;
+    margin: 140px auto 70px;
+    background: url("/images/hero.png") center center / cover no-repeat;
+    background-size:auto;
+    
+}
+.hero__container {
+    margin: 0px auto;
+    text-align: center;
+    min-height: 400px;
+    width: 800px;
+}
+
+.hero__title {    
+    font-size: 72px;
+    line-height: 1.42;
+}
+
+.hero__description {
+    font-size: 18px;
+    margin-top: 10px;
+    min-height: 60px;
+}
+
+.hero__button {
+    margin-top: 45px;
+}

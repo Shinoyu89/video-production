@@ -1,0 +1,164 @@
+.services__list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+
+.services__item {
+    text-align: left;
+    color: black; 
+    min-width: 355px;
+    max-height: 476px;
+    background: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;    
+}
+
+.card__image {
+    width: 80px;
+    height:80px;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+.card__content {
+    max-width: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    min-height: 80px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__col {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.card__col-details {
+    padding-left: 68px;  
+}
+
+.card__col-details:first-child {
+    padding-left: 0px;
+}
+
+span {
+    font-weight:bold;
+    font-size: 12px;
+}
+
+.card__slogan {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.card__people {
+    font-style: bold;
+    font-size: 18px;
+}
+
+.card__days {
+    font-style: bold;
+    font-size: 18px;
+}
+
+.card__col {
+    display:flex;
+    
+}
+
+.card__button-wrapper {
+    margin-top: auto;
+    margin-bottom: 53px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*Секция услуг страницы "Услуги"  */
+
+
+.page-content {
+    background:whitesmoke;
+    color: black;
+    padding: 79px 0;
+    
+}
+
+.services {
+    
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.services__piece {
+    text-align: left;
+    color: black; 
+    min-height: 333px;
+    background: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.services__content {
+    flex: 1;
+    padding-left: 55px;
+}
+
+.services__img {
+    height: 100%;
+}
+
+.services__side {
+    padding-left: 0px;
+    margin-top: 60px;
+}
+
+.services__title {
+    font-size: 36px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.services__desc {
+    line-height: 1.7;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.services__card {
+    display: flex;
+    margin-top: 40px;
+    justify-content:space-between;
+    background: whitesmoke;
+}
+
+.services__card:hover {
+    background: #ccc;
+    color: orangered;
+}

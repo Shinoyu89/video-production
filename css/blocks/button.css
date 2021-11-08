@@ -1,0 +1,41 @@
+.button {
+    width: 198px;
+    height: 55px;
+    border: 2px;
+    border-radius: 35px;
+    padding: 18px 45px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #FF5500;
+    text-decoration: none;
+    margin-top:40px;
+
+}
+
+.button.button--white{
+    background-color: whitesmoke;
+    border-color: #ff5500;
+    color: #FF5500;
+}
+
+.button.button--orange {
+    background-color: #FF5500;
+    border-color: #FF5500;
+    color: whitesmoke;
+}
+
+.button.button--orange:hover {
+    box-shadow: 0 0 20px 0 rgb(235, 162, 133);
+    background-color: #FF3D00;
+}
+
+.button.button--white:hover {
+    box-shadow: 0 0 20px 0 rgb(235, 162, 133);
+    background-color:white;
+}
+
+.about__button {
+    margin-top: 45px;
+}

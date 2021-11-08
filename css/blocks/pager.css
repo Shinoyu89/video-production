@@ -1,0 +1,39 @@
+.pager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.pager__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 16px;
+}
+
+.pager__theme--light .pager__item--active {
+    color:#202123;
+}
+.pager__display {
+    font-size: 16px;
+}
+
+.pager__link {
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+    line-height: 32px;
+}  
+
+.pager__item--active {
+    background: #ff5500;
+    text-align: center;
+    border-radius: 50%;
+}

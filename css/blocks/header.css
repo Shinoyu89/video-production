@@ -1,0 +1,38 @@
+.header {
+    min-height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 40px;
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__col--align-right {
+    justify-content: flex-end;
+    padding-top: 13px;
+    padding-right: 9px;
+}
+
+.header__container {
+    display:flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    min-height: 80px;
+}
+
+.logo {
+    display: block;
+   
+}
+
+.logo__pic{
+    height: 47px;
+    width: 198px;
+}

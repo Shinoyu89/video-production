@@ -1,0 +1,31 @@
+.partners__link {
+    text-decoration: none;
+    display: flex;
+    width: 178px;
+    height: 61px;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100%);
+}
+
+.partners__link:hover {
+    filter: grayscale(0%);
+}
+
+.partners {
+    padding-left:0px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.partners__item {
+    margin-left: 130px;
+    margin-bottom: 70px;
+    
+}
+
+.partners__item:nth-child(4n+1) {
+    margin-left: 0px
+}

@@ -1,0 +1,36 @@
+.nav__top-line {
+    padding-left: 231px;
+}
+
+.nav {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    min-width: 280px;
+    justify-content: space-between;
+}
+
+.nav__item {
+    
+    text-align:center;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: orangered;
+}
+
+.nav__item--active {
+    color: orangered;
+}

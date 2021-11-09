@@ -53,11 +53,11 @@
 }
 
 .socials__item--telegram {
-    background-image: url("/images/telegram.png");
+    background-image: url("../../images/telegram.png");
 }
 
 .socials__item--telegram:hover {
-    background-image: url("/images/telegram-hover.png");
+    background-image: url("../../images/telegram-hover.png");
 
 }
 

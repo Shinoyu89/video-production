@@ -57,7 +57,7 @@
 }
 
 .socials__item--telegram:hover {
-    background-image: url("/images/telegram-hover.png");
+    background-image: url("../../images/telegram-hover.png");
 
 }
 
@@ -66,7 +66,7 @@
 }
 
 .socials__item--vk:hover {
-    background-image: url("/images/vk-hover.png");
+    background-image: url("../../images/vk-hover.png");
 }
 
 .socials__item--f {
@@ -74,7 +74,7 @@
 }
 
 .socials__item--f:hover {
-    background-image: url("/images/f-hover.png");
+    background-image: url("../../images/f-hover.png");
 }
 
 .socials__item--in {
@@ -82,7 +82,7 @@
 }
 
 .socials__item--in:hover {
-    background-image: url("/images/in-hover.png");
+    background-image: url("../../images/in-hover.png");
 }
 
 address {

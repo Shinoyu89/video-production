@@ -3,7 +3,7 @@
     background: #202123;
     display: flex;
     flex-direction: column;
-    background: url("/images/top-line.png") center center / cover no-repeat;
+    background: url("../../images/top-line.png") center center / cover no-repeat;
 }
 
 .top-line__container {

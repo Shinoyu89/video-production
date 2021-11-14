@@ -6,6 +6,7 @@ line-height: 1.42;
 background: #17191C;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
+list-style: none;
 }
 
 body, html {
@@ -46,6 +47,3 @@ img {
     width: 100%;
 }
 
-* {
-    box-sizing: border-box
-}

@@ -1,6 +1,4 @@
 .button {
-    width: 198px;
-    height: 55px;
     border: 2px;
     border-radius: 35px;
     padding: 18px 45px;
@@ -8,7 +6,7 @@
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    border: 2px solid #FF5500;
+    border: 2px solid hsl(20, 100%, 50%);
     text-decoration: none;
     margin-top:40px;
 
@@ -24,6 +22,16 @@
     background-color: #FF5500;
     border-color: #FF5500;
     color: whitesmoke;
+}
+
+.button__color--grey{
+    background-color: grey;
+    color: whitesmoke;
+    border: 0px;
+    cursor: pointer;
+}
+.button__color--grey:hover{
+    background-color: #202122;
 }
 
 .button.button--orange:hover {

@@ -1,29 +1,28 @@
 .breadcrumbs {
     margin-top: 90px;
+    
 }
 
 .breadcrumbs__list {
     display: flex;
     align-items: center;
     list-style: none;
-    padding-left:110px;
+    padding-left:210px;
     padding-bottom: 0px;
     padding-top: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
-    color: inherit;
 
 }
 
 .breadcrumbs__link {
-    color: inherit ;
     font-size: 14px;
+    color: whitesmoke;
 }
 
 .breadcrumbs__item {
     display: flex;
     align-items: center;
-    color: inherit;
 }
 
 .breadcrumbs__item--active .breadcrumbs__link {

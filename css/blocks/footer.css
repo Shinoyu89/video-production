@@ -46,6 +46,9 @@
     vertical-align: middle;
     margin-right: 10px;
     opacity: 80%;
+    width:36px;
+    height: 36px;
+    position: relative;
 }
 
 .socials__item:last-child {
@@ -53,36 +56,43 @@
 }
 
 .socials__item--telegram {
-    background-image: url("/images/telegram.png");
+    background-image: url("../../images/sprite.png");
+    background-position: -122px -10px;
+    overflow: hidden;
 }
 
 .socials__item--telegram:hover {
-    background-image: url("../../images/telegram-hover.png");
-
+    background-position: -122px -66px;
 }
 
 .socials__item--vk {
-    background-image: url("/images/vk.png");
+    background-image: url("../../images/sprite.png");
+    background-position: -10px -122px;
+    overflow: hidden;
 }
 
 .socials__item--vk:hover {
-    background-image: url("../../images/vk-hover.png");
+    background-position: -66px -122px;
 }
 
 .socials__item--f {
-    background-image: url("/images/f.png");
+    background: url("../../images/sprite.png"); 
+    background-position:-10px -10px;
+    overflow: hidden;
 }
 
 .socials__item--f:hover {
-    background-image: url("../../images/f-hover.png");
+    background-position:-66px -10px;
 }
 
 .socials__item--in {
-    background-image: url("/images/in.png");
+    background-image: url("../../images/sprite.png");
+    background-position:-10px -66px;
+    overflow: hidden;
 }
 
 .socials__item--in:hover {
-    background-image: url("../../images/in-hover.png");
+    background-position:-66px -66px;
 }
 
 address {

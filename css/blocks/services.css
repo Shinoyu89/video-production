@@ -71,6 +71,7 @@ span {
     box-sizing: border-box;
     width: 100%;
     margin-top: 25px;
+    min-height: 53px;
 }
 
 .card__people {

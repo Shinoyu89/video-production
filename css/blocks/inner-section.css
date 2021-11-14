@@ -1,14 +1,16 @@
-.inner-section {
+
+.inner-section--bg-grey {
     background: whitesmoke;
     color: #202123;
     padding: 95px 0 0 0;
-}
-
-.inner-section--bg-grey {
-    background: #f4f5f5;
+    display: flex;
+    
 
 }
-.inner-section__title {
-    font-size: 48px;
+
+.inner-section__title{
+    color:#202020;
+    text-transform:uppercase;
     font-weight: bold;
+    font-size: 36px;
 }

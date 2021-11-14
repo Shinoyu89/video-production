@@ -18,17 +18,6 @@
     text-decoration: underline;
     text-align: right;
     color: #FF5500;
-    font-size: 13px;
+    font-size: 16px;    
     
-    
-}
-
-.contacts__popup {
-    display: block;
-    top: 80px;
-    text-align: center;
-    font-size: 16px;
-    width: 180px;
-    top: 75px;
-    background: #474e5881;
 }

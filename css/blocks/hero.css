@@ -2,7 +2,7 @@
     display: block;
     height: 500px;
     margin: 140px auto 70px;
-    background: url("../../images/hero.png") center center / cover no-repeat;
+    background: url("/images/hero.png") center center / cover no-repeat;
     background-size:auto;
     
 }
